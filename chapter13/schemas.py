@@ -5,7 +5,8 @@ from pydantic import BaseModel
 class FantasAcquisitionFeatures(BaseModel):
     waiver_value_tier: int
     fantasy_regular_season_weeks_remaining: int
-    league_budget_pct_remainin: int
+    league_budget_pct_remaining: int
+    
 
 # The output that will be returned from the model
 class PredictionOutput(BaseModel):
